@@ -1,0 +1,37 @@
+# 🏗️ Roofing Calculator
+
+A web-based application to estimate roofing costs based on user input like location, selected house, preferences, and contact details.
+
+---
+
+## 🚀 How It Works
+
+### 1. 📍 Enter Location
+- The user starts by typing or selecting a **location** (e.g., city or area name).
+- Example:  2781 El Camino Real, Tustin, CA 92782
+### 2. 🏠 Move Pointer to Select a House
+- On the map or layout interface, the user **moves the mouse pointer** and **clicks on a house** to select it.
+- Selected house data (e.g., roof size, type) is used for cost calculation.
+
+### 3. ⚙️ Select Roofing Options
+- After selecting the house, the user is presented with options such as:
+  - ✅ Roof Type (e.g., Asphalt, Metal, Tile)
+  - 📏 Roof Size (automatically fetched or manually entered)
+  - 🧱 Material Quality (Standard, Premium)
+
+### 4. 📧 Enter Email & Name
+- User fills a form:
+  - **Full Name** (e.g., `Ali Khan`)
+  - **Email Address** (e.g., `ali@example.com`)
+
+### 5. 💰 Calculate Cost
+- The system calculates total roofing cost based on:
+  - Roof area
+  - Material type
+  - Selected options
+  - Location-specific pricing
+
+✅ The **final cost estimate** is displayed and optionally sent to the user via email.
+
+---
+
